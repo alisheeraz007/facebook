@@ -108,10 +108,20 @@ body{
     opacity: 0.5;
 }
 .header{
+    width: 100%;
     position: absolute;
     top: 25%;
     left: 50%;
     transform: translate(-50%,-25%);
     color: #4267b2;
     font-weight: bold;
+    font-size: 18px;
+}
+hr{
+    position: absolute;
+    top: 85%;
+    width: 91%;
+    margin-left: auto;
+    left: 50%;
+    transform: translate(-50%, 0);
 }

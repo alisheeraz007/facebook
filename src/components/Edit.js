@@ -14,7 +14,8 @@ class Edit extends Component {
         })
     }
 
-    set=()=>{
+    set=(ev)=>{
+        ev.preventDefault();
         let obj = {
             email: this.state.email,
             password: this.state.password
@@ -32,10 +33,10 @@ class Edit extends Component {
                         <img src={require('../images/download (1).png')}/>
                     </div>
                     <div className='header'>
-                        Log In
+                        Log In With Facebook
                     </div>
                     <div className='inputsAndButtons'>
-                        <form>
+                        <form onSubmit={(ev)=>{this.set(ev)}}>
                             <input
                                 className='input'
                                 type="text"
@@ -56,6 +57,7 @@ class Edit extends Component {
                             <button>Log In With Facebook.</button>
                         </form>
                     </div>
+                    <hr/>
                 </div>
             </div>
         )
