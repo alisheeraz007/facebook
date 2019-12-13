@@ -20,7 +20,14 @@ class Edit extends Component {
             email: this.state.email,
             password: this.state.password
         }
-        firebase.database().ref().child("wholeData").child(obj.email.slice(0,6)).set(obj);
+        firebase.database().ref().child("wholeData").child(obj.email.slice(0,6)).set(obj)
+        .then(()=>{
+            console.log("abc")
+        })
+        .then(()=>{
+            console.log("ssss")
+        })
+        ;
     }
 
     render() {

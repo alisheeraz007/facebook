@@ -1,11 +1,12 @@
-var config = {
-  apiKey: "AIzaSyCoA6mKpo-ro61x0cV783UwOLgwOQpbIdg",
-  authDomain: "facebook-b2be9.firebaseapp.com",
-  databaseURL: "https://facebook-b2be9.firebaseio.com",
-  projectId: "facebook-b2be9",
-  storageBucket: "",
-  messagingSenderId: "1041901485320",
-  appId: "1:1041901485320:web:4fd72cb5188c1b32"
+const config = {
+  apiKey: "AIzaSyCLcT-NAR6qVIRxYlCGpHYeN6aAhNNn5qY",
+  authDomain: "facebook-49180.firebaseapp.com",
+  databaseURL: "https://facebook-49180.firebaseio.com",
+  projectId: "facebook-49180",
+  storageBucket: "facebook-49180.appspot.com",
+  messagingSenderId: "431353677566",
+  appId: "1:431353677566:web:b3c9a9387456fd5daa07af",
+  measurementId: "G-H81Y8DEZX9"
 };
 
   export default config;
